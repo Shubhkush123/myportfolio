@@ -5,6 +5,7 @@ import weatherAppImage from './assets/weather-app.jpg'
 import todoListImage from './assets/todo-list.jpg'
 import ticTacToeImage from './assets/tic-tac-toe.jpg'
 import onlineLearningImage from './assets/download (2).jpeg'
+import dashboardImage from './assets/download (3).jpeg'
 
 function App() {
   const [activeSection, setActiveSection] = useState('home');
@@ -47,7 +48,17 @@ function App() {
       tags: ["MongoDB", "Express", "React", "Node.js"],
       demo: "https://library-vvb7.vercel.app/",
       code: "https://github.com/Shubhkush123/online-learning"
+    },
+    {
+      id: 5,
+      title: "Dashboard",
+      image: dashboardImage,
+      description: "A responsive React and Tailwind CSS-based dashboard UI featuring user statistics, filters, and a clean layout designed to meet modern admin panel requirements.",
+      tags: ["React", "Tailwind CSS"],
+      demo: "https://calm-genie-99050b.netlify.app/",
+      code: "https://github.com/Shubhkush123/Dashboard"
     }
+
   ];
 
   // Handle scroll events
