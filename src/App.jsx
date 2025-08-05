@@ -5,6 +5,36 @@ import shubh from './image/shubh.jpg'
 function App() {
   const [activeSection, setActiveSection] = useState('home');
 
+  const projects = [
+    {
+      id: 1,
+      title: "Weather Detection App",
+      image: weatherAppImage,
+      description: "A real-time weather detection application built with React that provides current weather conditions, forecasts, and location-based weather updates.",
+      tags: ["React", "Weather API", "CSS"],
+      demo: "https://your-weather-app-demo.com",
+      code: "https://github.com/yourusername/weather-app"
+    },
+    {
+      id: 2,
+      title: "Todo List Application",
+      image: todoListImage,
+      description: "A feature-rich Todo List app with React and localStorage for task management, including categories, priorities, and completion tracking.",
+      tags: ["React", "localStorage", "CSS"],
+      demo: "https://your-todo-app-demo.com",
+      code: "https://github.com/yourusername/todo-list"
+    },
+    {
+      id: 3,
+      title: "Tic Tac Toe Game",
+      image: ticTacToeImage,
+      description: "An interactive Tic Tac Toe game built with React, featuring two-player mode, move history, and win detection algorithm.",
+      tags: ["React", "Game Logic", "CSS"],
+      demo: "https://your-tictactoe-demo.com",
+      code: "https://github.com/yourusername/tic-tac-toe"
+    }
+  ];
+
   return (
     <div className="portfolio-app">
       {/* <img src={shubh} alt="random" /> */}
