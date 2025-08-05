@@ -4,7 +4,6 @@ import profileImage from './assets/profile.jpg'
 import weatherAppImage from './assets/weather-app.jpg'
 import todoListImage from './assets/todo-list.jpg'
 import ticTacToeImage from './assets/tic-tac-toe.jpg'
-import onlineLearningImage from './assets/download (2).jpeg'
 
 function App() {
   const [activeSection, setActiveSection] = useState('home');
@@ -38,15 +37,6 @@ function App() {
       tags: ["React", "Game Logic", "CSS"],
       demo: "https://your-tictactoe-demo.com",
       code: "https://github.com/yourusername/tic-tac-toe"
-    },
-    {
-      id: 4,
-      title: "Online Learning Platform",
-      image: onlineLearningImage,
-      description: "A full-stack MERN-based platform offering secure authentication, dynamic course listings, user dashboards, and admin controls for managing content and users effectively.",
-      tags: ["MongoDB", "Express", "React", "Node.js"],
-      demo: "https://library-vvb7.vercel.app/",
-      code: "https://github.com/Shubhkush123/online-learning"
     }
   ];
 
